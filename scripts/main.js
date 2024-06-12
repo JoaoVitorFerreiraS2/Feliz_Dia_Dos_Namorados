@@ -180,21 +180,18 @@
       let size = Math.random() * 1.2
       // 速度
       this.delta = 0.06
-      // 现在的位置
       this.x = 0
       this.y = 0
-      // 上次的位置
+  
       this.px = Math.random() * canvas.width
       this.py = (canvas.height * 0.5) + ((Math.random() - 0.5) * spread)
-      // 记录点最初的位置
       this.mx = this.px
       this.my = this.py
-      // 点的大小
+
       this.size = size
-      // this.origSize = size
-      // 是否用来显示字
+      // this.origSize = siz
       this.inText = false
-      // 透明度相关
+  
       this.opacity = 0
       this.fadeInRate = 0.005
       this.fadeOutRate = 0.03
