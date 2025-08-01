@@ -9,10 +9,7 @@
   const CANVASHEIGHT = 500
   const CANVASID = 'canvas'
 
-  let texts = ['Oie Minha Princesa', 'Eu Sei', 'Um Pouco Exagerado', 'Mas..................', 'Isso Tudo É', 'Para Você Saber', 'Que nossa química', 
-  'Está Marcada', 'Pelas Próprias', 'Estrelas ★', 'E Que Elas', 'Estão Torcendo', 'Por Nós Dois', 
-  'EU', 'AMO', 'MUITO', "VOCÊ", 'Eu Quero', 'Que Você Seja', "O Amor", "Da Minha Vida", "Minha princesinha",
-"Minha Mocinha", "Minha nega", "Meu amor","Minha faixa Preta", "Minha garota", ""]
+  let texts = ['']
 
   let canvas,
     ctx,
@@ -237,3 +234,4 @@
   // }, 4000);
   // mp3.play()
 })(window)
+
